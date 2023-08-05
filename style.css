@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main_ul{
+    list-style: none;
+    background-color: rgb(186, 177, 196);
+    margin: 0;
+    padding: 0 5px;
+    display: flex;
+}
+.sub_ul{
+    list-style: none;
+}
+
+.li_meno{
+    padding: 0 10px;
+    display: inline;
+}
+.li_meno:hover{
+    background-color: brown;
+}
+nav ul li a {
+    text-decoration:none;
+}
+.sub_ul{
+    display: none;
+    position: absolute;
+    background-color: azure;
+    padding: 0;
+}
+<!-- nav li:hover .sub_ul{
+    display: block;
+} -->
+.li_sub_meno{
+    padding: 0;
+}
+.li_sub_meno:hover{
+    background-color: rgb(11, 255, 255);
+}
